@@ -1,0 +1,22 @@
+.grande{
+	display: inherit !important;
+}
+
+h1, h2{
+	text-align: center;
+	font-size: 2.5em;
+}
+
+header, footer, #cuerpo{
+	width: 80%;
+}
+
+#main-nav{
+	float: left;
+	width: 20%;
+}
+
+#main-section{
+	margin-left: 21%;
+	width: 79%;
+}

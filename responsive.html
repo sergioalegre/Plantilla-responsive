@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<title>Ejemplo responsivo</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="grande.css" media="screen and (min-width: 981px)" />
+	<link rel="stylesheet" href="mediano.css" media="screen and (min-width: 481px) and (max-width: 980px)" />
+	<link rel="stylesheet" href="mini.css" media="screen and (max-width: 480px)" />
+</head>
+
+<body>
+	<header>
+		<h1>Ejemplo de plantilla responsiva</h1>
+		<a href="https://twitter.com/naarean"><img src="logo.png" width="200px" alt="@naarean"></a>
+		<h2 class="grande">GRANDE</h2>
+		<h2 class="mediano">MEDIANO</h2>
+		<h2 class="mini">MINI</h2>
+	</header>
+
+	<div id="cuerpo">
+		<nav id="main-nav">
+			<h2>Menú</h2>
+			<ul class="menu grande mediano">
+				<li><a href="">li Primero</a></li>
+				<li><a href="">li Segundo</a></li>
+				<li><a href="">li Tercero</a></li>
+			</ul>
+
+			<select class="mini">
+				<option>Opción Uno</option>
+				<option>Opción Dos</option>
+				<option>Opción Tres</option>
+			</select>
+		</nav>
+
+		<section id="main-section">
+			<h2>Mi contenido</h2>
+			<article>
+				<h3><a href="">Entrada1</a></h3>
+				<p class="grande mediano">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam officia commodi odio dicta sunt delectus temporibus quae minima ad natus labore ratione dolor placeat tempore, qui voluptas aspernatur nesciunt? Amet.</p>
+			</article>
+			<article>
+				<h3><a href="">Entrada2</a></h3>
+				<p class="grande mediano">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sapiente corrupti unde necessitatibus facere? Voluptatem animi vero a officia harum! Sint dolorum perspiciatis aliquam, consectetur sunt tempore sequi asperiores mollitia!</p>
+			</article>
+		</section>
+	</div>
+
+	<footer>Sergio Alegre - <a href="https://twitter.com/naarean">@naarean</a> - <a href="https://github.com/naarean">github.com/naarean</a></footer>
+</body>
+</html>

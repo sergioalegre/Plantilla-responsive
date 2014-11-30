@@ -1,0 +1,36 @@
+body{
+	color: #666;
+	background-color: #F0F0F0;
+}
+header, #cuerpo, footer{
+	padding: 0 10px;
+	width: 60%;
+	min-width: 300px;
+	min-height: 50px;
+	margin: 20px auto;
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+	line-height: 50px;
+}
+.grande{
+	display: none;
+}
+
+.mediano{
+	display: none;
+}
+
+.mini{
+	display: none;
+}
+
+.menu{
+	padding-left: 0px;
+}
+
+.menu li{
+	display: inline;
+	list-style-type: none;
+}

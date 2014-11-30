@@ -1,0 +1,11 @@
+.mediano{
+	display: inherit !important;
+}
+
+header, footer, #cuerpo{
+	width: 90%;
+}
+
+h1, h2{
+	font-size: 1.75em;
+}

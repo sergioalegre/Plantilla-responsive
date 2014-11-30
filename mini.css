@@ -1,0 +1,16 @@
+.mini{
+	display: inherit !important;
+}
+
+select.mini{
+	font-size: 1.2em;
+	width: 100%;
+}
+
+header, footer, #cuerpo{
+	width: 95%;
+}
+
+h1, h2{
+	font-size: 1.5em;
+}
